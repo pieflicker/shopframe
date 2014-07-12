@@ -1,28 +1,13 @@
 == README
+This is a very early stage v.01 of what I'm hoping to make into a decent barebones framework for a webshop.
+I'm planning to build out the basic functionality in such a way that a coder with fairly basic ruby/rails/css/html 
+skills can get a shop up and running pretty quickly and can spend their time getting it to look and feel the way 
+they want it to, instead of coding the shopping cart and inventory managment system.
+I'm not trying to compete with turnkey solutions like spree, but just provide a bit of a platform for people to be 
+creative with their stores. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+fair warning, I'm pretty new to web app programming, so a lot of things will take time, might not be secure, and 
+may not adhere to "best practise".
+Any helpful comments about security or refactoring will be appreciated, though. 
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
