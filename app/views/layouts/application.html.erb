@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopframe</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div id="header">
+    <h1> header </h1>
+  </div>
+
+  <div id="upper_nav_bar">
+    <ul>
+      <li class="upper_nav_button"> Home </li>
+      <li class="upper_nav_button"> Products </li>
+      <li class="upper_nav_button"> Discounts </li>
+      <li class="upper_nav_button"> FAQ </li>
+      <li class="upper_nav_button"> Contact Us </li>
+    </ul>
+  </div>
+
+
+  <div id="left_box">
+    <ul>
+      <li class="side_nav_button"> Home </li>
+      <a href="/product"><li class="side_nav_button"> Products </li></a>
+      <li class="side_nav_button"> Discounts </li>
+      <li class="side_nav_button"> Dingleberries </li>
+      <li class="side_nav_button"> FAQ </li>
+      <li class="side_nav_button"> Contact Us </li>
+    </ul>
+  </div>
+
+  <div id="post_body">
+
+<%= yield %>
+
+  </div>
+
+  <div id="right_bar">
+
+  </div>
+
+</body>
+</html>
+ 
